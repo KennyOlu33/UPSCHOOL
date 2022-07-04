@@ -1,0 +1,443 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 60px;
+    
+}
+.main-header img{
+    height: 50px;
+    padding-top: 45px;
+    padding-left: 70px;
+}
+.nav ul{
+    display: flex;
+    padding-top: 35px;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}.nav ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav ul li a:hover{
+    border-bottom: 2px grey solid;
+    color: blue;
+}
+.nav ul li a:active{
+    color: white;
+}
+button{
+    background: rgb(2, 2, 121);
+    color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    border-style: none;
+    margin-bottom: 5px;
+    border-bottom: 15px;
+    
+    
+    
+}
+
+button:hover{
+    color: #000000;
+}
+
+button:active{
+    color: beige;
+}
+.about{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/why.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 40%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    padding-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80%;
+    color: rgb(6, 8, 7);
+    
+
+    
+}
+.about button{
+    background-color: rgb(218, 200, 200);
+    color: black;
+    font-size: 130%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:200px;
+    border-style: none; 
+}
+
+.about button:hover{
+    color: aliceblue;
+}
+
+.about button:active{
+    color: blue;
+}
+.about p{
+    color: rgb(216, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+span{
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+}
+
+.content{
+    background-color: whitesmoke;
+    
+}
+
+.art1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+.content button{
+    background-color: rgb(209, 175, 175);
+    color: #000000;
+    text-align: center;
+    margin-left: 40%;
+    border-style: none;
+}
+
+.content button:hover{
+    color: antiquewhite;
+}
+
+.content button:active{
+color: blue;
+}
+
+.young{
+    text-align: center;
+    padding-top: 40px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 400%;
+    color: gray;
+}
+.butt button{
+    margin-left: 10%;
+
+    
+}
+
+.know{
+    background-color: white;
+}
+
+.know button{
+    margin-left: 60%;
+    height: 50%;
+    background-color: white;
+    color: #000000;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 200px;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.know button:hover{
+    color: white;
+}
+.know button:active{
+    color: bisque;
+}
+
+.number{
+    justify-content: space-between;
+    display: flex;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: gray;
+    font-size: 200%;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.our{
+    padding-top: 10%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.prem{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    padding-left: 10%;
+    line-height: 2.6em;
+    color: rgb(51, 51, 51);
+
+}
+.school{
+    padding-left: 25%;
+    padding-right: 10%;
+    color: gray;
+    line-height: 2.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start img{
+    width: 380px;
+    border-radius: 15px;
+}
+
+.start{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5%;
+    line-height: 1.6em;   
+}
+.start h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: 100;
+    color: grey;
+}
+.start p{
+    font-size:110%;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.start a{
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.front{
+    padding-left: 3%;
+    padding-right: 3%;   
+}
+.back{
+    padding-left: 3%;
+    padding-right:3%;
+}
+
+.ui{
+    padding-left: 3%;
+    padding-right:3%;   
+}
+
+.tech img{
+    width: 380px;
+    border-radius: 15px;
+}
+
+.tech{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5%;
+    line-height: 1.6em;   
+}
+.tech h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: 100;
+}
+.tech p{
+    font-size:110%;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tech a{
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cloud{
+    padding-left: 3%;
+    padding-right:3%;
+}
+.gen{
+    padding-left: 0%;
+    padding-right:0%;
+}
+
+.gen h2{
+    line-height: 1.0em;
+}
+.phone{
+    padding-left: 3%;
+    padding-right:3%;
+}
+.teach img{
+    width: 80%;
+    border-radius: 5%;
+    padding-left: 10%;
+}
+.teach{
+    padding-top: 10%;
+    line-height: 1.6em;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.why{
+    padding-right: 10%;
+}
+
+.why h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    line-height: 1.6em;
+    font-weight: 200;
+}
+
+.why h3{
+    font-size: 170%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: #2b2a2a;
+}
+.why a{
+    text-decoration: none;
+    font-size:110%;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2b2a2a;
+}
+
+.why a:hover{
+    color: blue;
+}
+
+.ready{
+    background-color: rgb(53, 53, 240);
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    padding-top: 5%;    
+    border-radius: 10px;
+}
+.ready p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.ready button{
+    background-color: white;
+    color: rgb(53, 53, 240);
+    width: 320px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:2% ;
+}
+
+.ready:hover{
+    color: bisque;
+}
+
+.physical{
+    background-color: rgb(250, 248, 248);
+    margin-top: 5%;
+    border-radius: 15px;
+}
+.train{
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10%;
+    line-height: 1.6em;
+}
+.trainning{
+    padding-left: 5%;
+    padding-right: 15%;
+}
+.trainning h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.trainning h4{
+    color: #979595;
+} 
+.trainning p{
+    color: #979595;
+}
+.support h2{
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+.support p{
+    color: #979595;
+}
+.spon{
+    padding-right: 5%;
+}
+.spon h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.spon p{
+    color: #979595;
+    
+}
+.last{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 7%;
+}
+
+.first {
+    padding-left: 5%;
+    width: 20%;
+    
+}
+
+.side{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    width: 150px;
+    height: 50px;
+}
+.middle ul{
+    justify-content: space-between;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.middle ul li{
+list-style-type: none;
+padding: 20px;
+}
+.middle ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.middle ul li a:hover{
+    color: blue;
+}
+.middle ul li a:active{
+    color: #ffff;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
